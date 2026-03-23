@@ -29,14 +29,8 @@ Dự án sử dụng mô hình **Hybrid Programming**:
 
 ## 🚀 Hướng dẫn cài đặt và khởi chạy
 
-### 1. Yêu cầu hệ thống
-- Hệ điều hành: **Windows**.
-- Trình biên dịch: **GCC** (MinGW).
-- Ngôn ngữ: **Python 3.x**.
-
-### 2. Cài đặt thư viện Python
-```bash
 1. Biên dịch nhân C: gcc -shared -o sjf_core.dll sjf_core.c
+
 2. Cài đặt thư viện: pip install matplotlib
 3. Khởi chạy: python sjf_gui.py
 4. Tương tác: Nhập ID/Arrival/Burst $\rightarrow$ Nhấn Enter $\rightarrow$ Chọn thuật toán $\rightarrow$ Xem kết quả.
