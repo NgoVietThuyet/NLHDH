@@ -1,10 +1,5 @@
 # 🖥️ CPU Scheduling Simulator (SJF & Round Robin)
 
-![C](https://img.shields.io/badge/Language-C-blue.svg)
-![Python](https://img.shields.io/badge/Language-Python-yellow.svg)
-![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-
 Dự án mô phỏng các thuật toán lập lịch CPU trong môn học **Hệ điều hành**. Ứng dụng kết hợp hiệu năng xử lý của **C** và giao diện trực quan của **Python (Tkinter/Matplotlib)** để mang lại cái nhìn chi tiết nhất về cách CPU điều phối tiến trình.
 
 ---
@@ -41,4 +36,9 @@ Dự án sử dụng mô hình **Hybrid Programming**:
 
 ### 2. Cài đặt thư viện Python
 ```bash
-pip install matplotlib
+1. Biên dịch nhân C: gcc -shared -o sjf_core.dll sjf_core.c
+2. Cài đặt thư viện: pip install matplotlib
+3. Khởi chạy: python sjf_gui.py
+4. Tương tác: Nhập ID/Arrival/Burst $\rightarrow$ Nhấn Enter $\rightarrow$ Chọn thuật toán $\rightarrow$ Xem kết quả.
+
+
